@@ -9,7 +9,7 @@ function ContentWrapper() {
     <>
       <div className="wrapper">
         <Sidebar />
-        <div>
+        <div style={{ width: "100%" }}>
           <Content />
           <Outlet />
         </div>
