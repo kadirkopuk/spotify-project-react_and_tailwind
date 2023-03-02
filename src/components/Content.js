@@ -5,7 +5,7 @@ import Search from "views/Search";
 
 function Content() {
   return (
-    <main className="flex-auto">
+    <main className="flex-auto overflow-auto">
       <Navbar />
     </main>
   );

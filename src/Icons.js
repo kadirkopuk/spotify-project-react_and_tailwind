@@ -291,6 +291,7 @@ const Icon = ({ name, size = 24 }) => {
     next: NextIcon,
     downDir: DownDirIcon,
     external: ExternalIcon,
+    play: PlayIcon,
   };
 
   const Component = icons[name];
