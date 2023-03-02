@@ -1,7 +1,7 @@
 import React from "react";
 
 function Collection() {
-  return <div>Collection</div>;
+  return <div className="px-8">Collection</div>;
 }
 
 export default Collection;

@@ -290,6 +290,7 @@ const Icon = ({ name, size = 24 }) => {
     prev: PrevIcon,
     next: NextIcon,
     downDir: DownDirIcon,
+    external: ExternalIcon,
   };
 
   const Component = icons[name];
